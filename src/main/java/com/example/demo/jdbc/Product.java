@@ -1,4 +1,4 @@
-package ex.transactionmanager.jdbc;
+package com.example.demo.jdbc;
 
 
 import lombok.Data;

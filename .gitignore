@@ -12,4 +12,10 @@ build/
 *.ipr
 out/
 !**/src/main/**/out/
+<<<<<<< HEAD
 !**/src/test/**/out/
+=======
+!**/src/test/**/out/
+
+/src/main/resources/application.yml
+>>>>>>> a5d026ccbc4a3b3cea2931d82e304eebb24f206b

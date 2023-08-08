@@ -1,4 +1,4 @@
-package ex.transactionmanager.jpa;
+package com.example.demo.jpa;
 
 public interface UserRepository {
 
