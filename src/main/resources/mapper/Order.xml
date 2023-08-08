@@ -1,0 +1,5 @@
+<mapper namespace="jdbc.OrderRepository">
+    <insert id="createOrder">
+        INSERT INTO orders (product_id, quantity) VALUES (#{product.id}, #{quantity})
+    </insert>
+</mapper>

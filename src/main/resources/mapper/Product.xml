@@ -1,0 +1,8 @@
+<mapper namespace="jdbc.ProductRepository">
+    <select id="findProductById" resultType="Product">
+        SELECT * FROM products WHERE id = #{id}
+    </select>
+    <update id="updateProductStock">
+        UPDATE products SET stock = stock - #{stock} WHERE id = #{id}
+    </update>
+</mapper>
